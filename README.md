@@ -92,7 +92,8 @@ Figur SVG (`figure(key, { svg: true })`) tetap tersedia sebagai cadangan.
 ## Profil pengembang
 
 Menu **Profil Pengembang** ada di layar awal. Data diri, referensi, dan keterangan kecerdasan artifisial disimpan di `src/data/credits.js`.
-Untuk menampilkan foto, impor gambarnya lalu isi `DEVELOPER.photo`. Tanpa foto, yang tampil adalah inisial.
+Foto pengembang ada di `src/assets/foto-pengembang.webp` (256×256, dipotong dari `art-source/foto-pengembang.png`).
+Untuk mengganti foto, timpa file WebP itu. Isi `DEVELOPER.photo` dengan `null` bila ingin menampilkan inisial saja.
 
 ## Misi
 

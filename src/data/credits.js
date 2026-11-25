@@ -1,8 +1,10 @@
 /* Profil pengembang, referensi, dan keterangan AI. Ubah di sini. */
+import foto from '../assets/foto-pengembang.webp'; // sumber asli: art-source/foto-pengembang.png
+
 export const DEVELOPER = {
   name: 'Irwan Hari Suprapto',
   initials: 'IHS',
-  photo: null, // opsional: impor gambar (mis. import foto from '../assets/foto.webp') lalu isi di sini
+  photo: foto, // isi null untuk menampilkan inisial
   rows: [
     ['Nama', 'Irwan Hari Suprapto'],
     ['Instansi', 'SMA Negeri 1 Toboali'],
@@ -23,4 +25,4 @@ export const AI_NOTE =
   'Kode program, bank soal, ilustrasi ruang (vektor SVG), serta musik dan efek suara disusun dengan bantuan asisten ' +
   'kecerdasan artifisial <b>Claude (Anthropic)</b> berdasarkan arahan pengembang. Ilustrasi tokoh Irwan, Harry, dan Suprapto ' +
   'disediakan oleh pengembang. Musik dan efek suara disintesis langsung dengan Web Audio API, tanpa rekaman. ' +
-  'Seluruh konten ditinjau dan menjadi tanggung jawab pengembang.';
+  'Foto pengembang adalah foto asli. Seluruh konten ditinjau dan menjadi tanggung jawab pengembang.';
