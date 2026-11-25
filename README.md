@@ -117,6 +117,13 @@ Kunci internal misi tetap `dara` / `nara` / `sekar` (dipakai untuk penyimpanan d
 | Hasil hanya via screenshot | Cetak + unduh JSON |
 | Elemen `div` yang bisa diklik | Elemen `button`, navigasi keyboard, `prefers-reduced-motion` |
 
+## Lisensi
+
+© 2026 Irwan Hari Suprapto, SMA Negeri 1 Toboali. Dilisensikan di bawah
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.id): boleh dipakai, dibagikan, dan diadaptasi
+untuk keperluan pendidikan nonkomersial dengan menyebut nama pengembang. Karya turunan wajib memakai lisensi yang sama.
+Teks lengkap ada di [LICENSE](LICENSE).
+
 ## Belum dikerjakan (ide lanjutan)
 
 - Pengiriman hasil ke server/LMS (kode hasil saat ini bukan pengaman)
